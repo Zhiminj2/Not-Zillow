@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\student\\Downloads\\json-20230227.jar"
+    ],
+    "liveServer.settings.port": 5501
+}

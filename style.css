@@ -1,0 +1,170 @@
+:root {
+    --text-color:rgb(18, 18, 18);
+}
+
+* {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+
+}
+
+header{
+    width: 100%;
+    height: 14vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header .b1{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+header .logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo h2 {
+    font-size: 35px;
+    color: royalblue;
+}
+
+main {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+main .search {
+    width: 50%;
+    background: transparent;
+    height: 50vh;
+    border-radius: 25px;
+}
+
+main .search .quote h3 {
+    font-size: 40px;
+    color: rgb(237, 237, 237);
+    /* background: black;
+    padding: 25px; */
+}
+
+main .search .nav {
+    width: 100%;
+    background: whitesmoke;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+}
+main .search .nav input {
+    width: 95%;
+    height: 90%;
+    border: transparent;
+}
+
+
+
+main .search .nav .btn {
+    width: 5%;
+    border:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer .quote1{
+    font-size: 40px;
+    color: rgb(237, 237, 237);
+
+}
+
+.output-shower {
+    width: 90%;
+	max-width: 1100px;
+	margin:40px auto;
+	display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    font-family: system-ui;
+    font-size: medium;
+}
+
+
+.output-shower .card {
+    width:100%;
+
+    height: 45vh;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 0 1rem 2rem hsl(0 0% 0% / 20%);
+
+}
+
+.output-shower .card img {
+    width: 100%;
+    height: 50%;
+    border-radius: 25px;
+
+}
+
+.output-shower .card .info-container {
+    width: 100%;
+    height: 60%;
+}
+
+.output-shower .card .info-container ul li {
+    list-style-type:none;
+    padding-bottom: 20px;
+    font-size: 12px;
+    
+}
+
+span {
+    color: red !important;
+}
+
+
+
+.output-shower .card .info-container ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(7, 7, 7); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+   
+
+}
